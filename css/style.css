@@ -55,7 +55,8 @@ textarea{
     border: none;
     outline: 0 none;
     font-size: 1rem;
-    font-family: 'Lucida Console', serif
+    font-family: 'Lucida Console', serif;
+    text-transform: lowercase;
       
   }
 
