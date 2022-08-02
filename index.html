@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+
+<body>
+    <div class="logo" >
+        <img src="img/logo.png" alt="logo alura">
+    </div>
+<section class="home">
+    <div class="items">
+
+        
+
+            <textarea name="escribatxt" id="escribaTexto" placeholder="Escriba Aqui su Texto" class="zonaTexto"></textarea>
+
+        <div>
+            <button class="botonEncriptar"> Encriptar 
+            </button>
+
+            <button class="botonDesencriptar"> Desencriptar
+            </button>
+        </div>
+
+    </div>
+    <div class="items">
+        <div>
+
+            <img src="img/inspector g.png" alt="persona buscando" width="
+            100%" height="40%" class="imagenbox" id="imagenbox">
+            
+            <textarea id="msgencriptado" class="mensajebox1" style="display: none;height: 20rem; width: 100%; overflow: visible;"></textarea>
+
+            <label id="MensajeBox" for="txtresultado" class="mensajebox" style="display: none ;">Ningun mensaje fue encontrado</label>
+
+            <label for="txtconsejo" class="mensajeConsejo">Ingresa el texto que desees encriptar o desencriptar</label>
+                
+            <button class="botonCopiar" onclick="" style="display: none;"> Copiar</button>
+
+
+        </div>
+        
+
+    </div>
+
+
+</section>
+       
+
+    <script src="js/botonEncriptar.js"></script>
+    <script src="js/botonDesencriptar.js"></script>
+    <script src="js/BotonCopiar.js"></script>
+
+
+    <footer>
+       
+        <p class="copyright">&copy Copyrigth Fabian Bernardino  2022</p>
+
+    </footer>
+
+
+
+</body>
+
+
+</html>
